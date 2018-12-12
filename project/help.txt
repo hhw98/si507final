@@ -1,0 +1,25 @@
+
+Commands available:
+
+list
+	Description: Lists movie_info or director_info according the specified parameters.
+
+	Options:
+		* movietitle=<movie_title>|director=<director_name>|
+		genre=<genre>|year=<year> [default: none]
+		Description: Specifies a movie or director info within which to limit the
+		results
+
+
+plot
+	Description: Plots average score and budget ratio according to year/genre.
+	Only companies that sell at least 4 different kinds of bars
+	are listed in results.
+
+	Options:
+		* year=<year>|genre=<genre> [default: none]
+		Description: Specifies a country or region within which to limit the
+		results.
+
+
+
